@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section > section, section > article {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+code {
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
