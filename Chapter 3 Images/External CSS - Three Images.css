@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif; 
+    background: #fefaf6;
+    color: #444; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    padding: 50px 20px;
+    background: #f4a58e; 
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container for text-image sections */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; 
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+/* Subtle zoom effect on hover */
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Reverse layout for alternating sections */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Text section styling */
+.text {
+    text-align: justify;
+    max-width: 450px;
+    font-size: 18px;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 26px;
+    color: #e78b6d;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 17px;
+    color: #666;
+}
+
+/* Image styling */
+.image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 15px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on images */
+.image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+    background: #f4a58e;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+    width: 85%;
+    margin: 50px auto 0;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer text color */
+footer p {
+    color: white;
+}

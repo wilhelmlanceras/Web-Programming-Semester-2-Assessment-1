@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML & CSS Quick Reference Guide</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Bonus - External CSS for HTML & CSS quick-reference.css"> 
+    <!-- Links to external CSS file for styling -->
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML & CSS Quick Reference Guide</h1> 
+        <!-- This is for the main page title -->
+        <p>These are some of the HTML & CSS properties we've covered so far in class.</p>
+        <p>Wilhelm Hirao Lanceras</p> <!-- Author name: My name -->
+    </header>
+
+    <section>
+        <h2>HTML Tags</h2> <!-- Section heading for HTML-->
+
+        <section>
+            <h3>1. <code>&lt;title&gt;</code></h3>
+            <p>Appears on the browser tab.</p>
+            <pre><code>&lt;title&gt;Page Title&lt;/title&gt;</code></pre>
+            <!-- Defines the webpage title in the browser tab -->
+        </section>
+
+        <section>
+            <h3>2. <code>&lt;meta&gt;</code></h3>
+            <p>Provides metadata about the page, such as character encoding.</p>
+            <pre><code>&lt;meta charset="UTF-8"&gt;</code></pre>
+            <!-- Ensures correct character encoding -->
+        </section>
+
+        <section>
+            <h3>3. <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></h3>
+            <p>Define heading levels, with <code>&lt;h1&gt;</code> as the largest.</p>
+            <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code></pre>
+        </section>
+
+        <section>
+            <h3>4. <code>&lt;p&gt;</code></h3>
+            <p>Defines a paragraph of text.</p>
+            <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+        </section>
+
+        <section>
+            <h3>5. <code>&lt;br&gt;</code></h3>
+            <p>Inserts a line break without starting a new paragraph.</p>
+            <pre><code>&lt;br&gt;</code></pre>
+            <!-- Used for breaking lines within text -->
+        </section>
+
+        <section>
+            <h3>6. <code>&lt;dl&gt;</code></h3>
+            <p>Creates a description list, with terms (<code>&lt;dt&gt;</code>) and descriptions (<code>&lt;dd&gt;</code>).</p>
+            <pre><code>&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+        </section>
+
+        <section>
+            <h3>7. <code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code></h3>
+            <p>Define unordered (bulleted) and ordered (numbered) lists.</p>
+            <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </section>
+
+        <section>
+            <h3>8. <code>&lt;code&gt;</code> and <code>&lt;pre&gt;</code></h3>
+            <p>Used for displaying code with proper formatting.</p>
+            <pre><code>&lt;pre&gt;
+&lt;code&gt;console.log("Hello");&lt;/code&gt;
+&lt;/pre&gt;</code></pre>
+        </section>
+
+        <section>
+            <h3>9. <code>&lt;img&gt;</code></h3>
+            <p>Embeds an image on the webpage.</p>
+            <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+            <!-- Always include the 'alt' attribute for accessibility -->
+        </section>
+
+        <section>
+            <h3>10. <code>&lt;div&gt;</code></h3>
+            <p>Defines a container for grouping elements.</p>
+            <pre><code>&lt;div&gt;
+  &lt;h2&gt;Section Heading&lt;/h2&gt;
+  &lt;p&gt;This is inside a div.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </section>
+
+    </section>
+
+    <section>
+        <h2>Common CSS Properties</h2> <!-- Section for CSS properties -->
+
+        <article>
+            <h3>1. <code>background-color</code></h3>
+            <p>Sets the background color of an element.</p>
+            <pre><code>div {
+  background-color: #f4f4f4;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>2. <code>color</code></h3>
+            <p>Changes the text color.</p>
+            <pre><code>p {
+  color: blue;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>3. <code>font-family</code></h3>
+            <p>Sets the font style.</p>
+            <pre><code>body {
+  font-family: Arial, sans-serif;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>4. <code>font-size</code></h3>
+            <p>Defines the text size.</p>
+            <pre><code>h1 {
+  font-size: 2em;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>5. <code>font-style</code></h3>
+            <p>Applies italic or other font styles.</p>
+            <pre><code>p {
+  font-style: italic;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>6. <code>font-weight</code></h3>
+            <p>Controls text thickness (e.g., bold).</p>
+            <pre><code>h2 {
+  font-weight: bold;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>7. <code>line-height</code></h3>
+            <p>Adjusts the spacing between text lines.</p>
+            <pre><code>p {
+  line-height: 1.6;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>8. <code>margin</code></h3>
+            <p>Controls the space outside an element.</p>
+            <pre><code>div {
+  margin: 20px;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>9. <code>text-align</code></h3>
+            <p>Aligns text inside an element.</p>
+            <pre><code>h1 {
+  text-align: center;
+}</code></pre>
+        </article>
+
+        <article>
+            <h3>10. <code>text-decoration</code></h3>
+            <p>Modifies text appearance (e.g., underline, none).</p>
+            <pre><code>a {
+  text-decoration: none;
+}</code></pre>
+        </article>
+
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the main font */
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: transparent; /* No background */
+}
+
+section {
+    margin: 20px 0; /* Adds spacing between sections */
+}
+
+section > section, section > article {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Softens edges */
+}
+
+code {
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc; /* Defines the block */
+    overflow-x: auto; /* Prevents horizontal overflow */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* For standard text color */
+}
