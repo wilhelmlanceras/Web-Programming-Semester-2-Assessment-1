@@ -1,0 +1,35 @@
+/* General reset for body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Title Styling */
+.title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Video styling */
+video {
+    width: 1120px;
+    height: 630px;
+    object-fit: cover;
+    display: block;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="Bonus - CSS RGB Guessing Game.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>RGB Color Guessing Game</h1>
+        <p>Guess the color matching the RGB value!</p>
+
+        <div id="rgb-value" class="rgb-display"></div>
+        
+        <div id="color-options" class="color-options">
+            <!-- Color options will be generated -->
+        </div>
+
+        <div id="game-feedback" class="game-feedback">
+            <!-- Correct or Incorrect displayed here -->
+        </div>
+
+        <div id="lives" class="lives">
+            <p>Lives Left: <span id="lives-count">5</span></p>
+        </div>
+
+        <div id="final-score" class="final-score">
+            <!-- Final score will be displayed here after game over -->
+        </div>
+
+        <button id="restart-btn" class="restart-btn" onclick="startNewGame()">Restart Game</button>
+    </div>
+
+    <script src="Bonus - JS RGB Guessing Game.js"></script>
+</body>
+</html>
